@@ -1,0 +1,40 @@
+{% assign choosed_product = section.settings.product_id.metafields.custom.related_products_with_banner.value %}
+
+{% if choosed_product != blank %}
+  {% for product_related in choosed_product %}
+    {% assign product_handle = product_related.produto %}
+    {% assign product_b = all_products[product_handle] %}
+    {% if product_b != blank %}
+      <div class="swiper-slide">
+        <div class="product">
+          {% if product_related.banner %}
+            {{ product_related.banner | image_url: width: 500 | image_tag: class: "product__banner" }}
+          {% endif %}
+          {% if product_b.featured_image %}
+            {{ product_b.featured_image | image_url: width: 200 | image_tag: class: "product__image" }}
+            <h2 class="product__title">{{ product_b.title }}</h2>
+            <a href="{{product_b.url}}" class="product__link">Ver mais</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Slider",
+    "settings": [
+      {
+        "type": "product",
+        "id": "product_id",
+        "label": "Escolha um Produto"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Slider"
+      }
+    ]
+  }
+{% endschema %}
