@@ -5,3 +5,42 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.swiper {
+  width: 100%;
+  max-width: 800px;
+  height: 600px;
+}
+
+.swiper-slide {
+  display: grid !important;
+  align-content: center;
+  margin-inline: auto;
+}
+
+.product {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.product__banner {
+  margin-block-end: 1.5em;
+}
+
+.product__image {
+  margin-block-end: 1em;
+}
+
+.product__title {
+  margin-block-end: 0.5em;
+}
+
+.product__link {
+  display: inline-block;
+  padding-block: 1em;
+  padding-inline: 2em;
+  border-radius: 4px;
+  text-decoration: none;
+  background: #20b3e0;
+  color: #1a1a1a
+}
