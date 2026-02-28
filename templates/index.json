@@ -9,12 +9,15 @@
  */
 {
   "sections": {
-    "Slider": {
+    "metaobject_slider_P4CT9d": {
       "type": "metaobject-slider",
-      "settings": {}
+      "name": "Slider",
+      "settings": {
+        "product_id": "the-collection-snowboard-liquid"
+      }
     }
   },
   "order": [
-    "Slider"
+    "metaobject_slider_P4CT9d"
   ]
 }

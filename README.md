@@ -9,7 +9,7 @@ Este repositório contém a solução do desafio técnico da Shakers focado na e
 
 ## 🎥 Demonstração em Vídeo
 
-Assista ao vídeo demonstrativo mostrando a configuração no Admin, o código e o slider funcionando: [Link do Vídeo aqui]
+Assista ao vídeo demonstrativo mostrando a configuração no Admin, o código e o slider funcionando: [Link do Vídeo aqui](https://youtu.be/EMxaq03an6M)
 
 ## 🚀 O que foi implementado
 
@@ -63,5 +63,5 @@ Assista ao vídeo demonstrativo mostrando a configuração no Admin, o código e
     ```
 
 ## 🔗 Links de Entrega
-- **Pull Request:**
-- **Vídeo do Desafio:**
+- **Pull Request:** https://github.com/DaniloSreis/shakers-semana-3-dados-avancados/pull/1
+- **Vídeo do Desafio:** https://youtu.be/EMxaq03an6M
