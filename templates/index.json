@@ -11,7 +11,9 @@
   "sections": {
     "Slider": {
       "type": "metaobject-slider",
-      "settings": {}
+      "settings": {
+        "product_id": "the-collection-snowboard-liquid"
+      }
     }
   },
   "order": [
