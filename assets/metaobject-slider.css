@@ -5,6 +5,18 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.swiper {
+  width: 100%;
+  max-width: 800px;
+  height: 600px;
+}
+
+.swiper-slide {
+  display: grid !important;
+  align-content: center;
+  margin-inline: auto;
+}
+
 .product {
   display: grid;
   justify-items: center;
