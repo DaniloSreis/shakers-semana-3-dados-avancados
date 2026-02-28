@@ -9,7 +9,7 @@
  */
 {
   "sections": {
-    "metaobject_slider_P4CT9d": {
+    "metaobject_slider_pX68tK": {
       "type": "metaobject-slider",
       "name": "Slider",
       "settings": {
@@ -18,6 +18,6 @@
     }
   },
   "order": [
-    "metaobject_slider_P4CT9d"
+    "metaobject_slider_pX68tK"
   ]
 }
